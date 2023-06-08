@@ -1,2 +1,3 @@
-- install from vsix
-- https://code.visualstudio.com/api/working-with-extensions/publishing-extension has more info on publishing if I want later.
+# vscode-copy-containing-folder-relative-path
+
+VSCode extension that opies the relative path of the folder containing the current file
