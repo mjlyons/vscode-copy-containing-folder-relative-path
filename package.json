@@ -1,0 +1,38 @@
+{
+  "name": "copy-containing-folder-relative-path",
+  "displayName": "Copy Containing Folder Relative Path",
+  "description": "Copies the relative path of the folder containing the current file",
+  "version": "0.0.1",
+  "publisher": "Mike Lyons",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "repository": {},
+  "activationEvents": [
+    "onCommand:extension.copyFolderRelativePath"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.copyFolderRelativePath",
+        "title": "Copy Folder Relative Path"
+      }
+    ]
+  },
+  "scripts": {
+    "build": "tsc extension.ts && vsce package"
+  },
+  "dependencies": {
+    "@types/node": "^20.2.5",
+    "@types/vscode": "^1.78.1"
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.19.0",
+    "typescript": "^5.1.3"
+  }
+}
