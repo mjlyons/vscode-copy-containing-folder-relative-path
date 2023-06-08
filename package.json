@@ -1,5 +1,5 @@
 {
-  "name": "copy-containing-folder-relative-path",
+  "name": "vscode-copy-containing-folder-relative-path",
   "displayName": "Copy Containing Folder Relative Path",
   "description": "Copies the relative path of the folder containing the current file",
   "version": "0.0.1",
